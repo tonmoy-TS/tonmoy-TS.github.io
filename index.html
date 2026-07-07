@@ -19,9 +19,10 @@
         <li><a href="#about" class="nav-link">About</a></li>
         <li><a href="#education" class="nav-link">Education</a></li>
         <li><a href="#experience" class="nav-link">Experience</a></li>
-        <li><a href="#skills" class="nav-link">Skills</a></li>
         <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
         <li><a href="#publications" class="nav-link">Publications</a></li>
+        <li><a href="#activities" class="nav-link">Activities</a></li>
         <li><a href="#contact" class="nav-link">Contact</a></li>
       </ul>
     </nav>
@@ -32,20 +33,33 @@
       <div class="container hero-grid">
         <div class="hero-photo">
           <img src="assets/img/profile_pic.jpg" alt="portrait of Tonmoy Sarker" class="avatar" />
-          <div class="avatar-placeholder" aria-hidden="true">TS</div>
+          <p class="hero-photo-caption">
+            Ph.D., Electrical Engineering, LSU<br />
+            M.S., Mechanical Engineering, LSU
+          </p>
         </div>
         <div class="hero-text">
           <p class="eyebrow">Hello, I am</p>
           <h1>Tonmoy Sarker</h1>
-          <p class="subtitle">Control &amp; Automation &middot; Machine Vision &middot; Machine Learning</p>
           <p class="bio">
-            Controls &amp; Autonomous Systems Engineer with 5+ years of experience developing real-time machine
-            automation, perception, and embedded solutions for robotics, intelligent transportation systems, and
-            industrial inspection platforms. Experienced in MATLAB/Simulink, Python, and C++ programming, sensor
-            fusion, machine learning, feedback control, and real-time system validation for PLC-controlled
-            equipment, machine vision, and ROS/Linux platforms.
+            I am an Electrical Engineer with background in Computer/Machine Vision systems, Robotics, Controls &amp;
+            Machine learning. I have experience in developing real-time machine automation, perception, and embedded 
+            solutions for robotic platforms, intelligent transportation systems, and industrial inspection. Experienced 
+            in Python, MATLAB/Simulink, C++ programming, sensor fusion, and ROS/Linux platforms.
+
+            In my free time, I enjoy travelling, photography, and exploring new technologies.
           </p>
-          <p class="bio-meta">Baton Rouge, Louisiana</p>
+          <div class="interests">
+            <p class="interests-label">Interests</p>
+            <div class="interests-row">
+              <span class="interest-card">Computer Vision/Machine Vision</span>
+              <span class="interest-card">Artificial Intelligence/Deep Learning</span>
+              <span class="interest-card">Industrial Control &amp; Automation</span>
+              <span class="interest-card">Robotics</span>
+              <span class="interest-card">Embedded Systems</span>
+              <span class="interest-card">Intelligent Transportation/Autonomous Vehicles</span>
+            </div>
+          </div>
           <div class="hero-links">
             <a class="btn btn-primary" href="#contact">Get in touch</a>
             <a class="btn btn-ghost" href="#projects">See projects</a>
@@ -59,6 +73,11 @@
             <li>
               <a href="https://www.linkedin.com/in/tonmoysarker/" target="_blank" rel="noopener" aria-label="LinkedIn">
                 <svg viewBox="0 0 16 16" width="20" height="20" fill="currentColor" aria-hidden="true"><path d="M0 1.15C0 .51.53 0 1.19 0h13.62C15.47 0 16 .51 16 1.15v13.7c0 .64-.53 1.15-1.19 1.15H1.19C.53 16 0 15.49 0 14.85V1.15Zm4.94 12.1V6.16H2.42v7.09h2.52ZM3.68 5.13c.88 0 1.43-.58 1.43-1.31-.02-.75-.55-1.32-1.41-1.32-.86 0-1.43.57-1.43 1.32 0 .73.55 1.31 1.39 1.31h.02Zm4.59 8.12v-3.96c0-.21.02-.42.08-.57.17-.42.56-.87 1.22-.87.86 0 1.2.65 1.2 1.61v3.79h2.52V9.24c0-2.33-1.24-3.41-2.9-3.41-1.34 0-1.93.74-2.26 1.25h.02v-1.07H5.63c.03.71 0 7.09 0 7.09h2.64Z"/></svg>
+              </a>
+            </li>
+            <li>
+              <a href="https://scholar.google.com/citations?user=YToHx08AAAAJ&hl=en" target="_blank" rel="noopener" aria-label="Google Scholar">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true"><path d="M5.242 13.769L0 9.5 12 0l12 9.5-5.242 4.269C17.548 11.249 14.978 9.5 12 9.5c-2.977 0-5.548 1.748-6.758 4.269zM12 10a7 7 0 1 0 0 14 7 7 0 0 0 0-14z"/></svg>
               </a>
             </li>
             <li>
@@ -79,8 +98,9 @@
             <div class="timeline-marker"></div>
             <div class="timeline-content">
               <p class="timeline-date">May 2026</p>
-              <h3>Ph.D., Electrical Engineering &ndash; Intelligent Systems &amp; Control</h3>
+              <h3>Ph.D., Electrical Engineering</h3>
               <p>Louisiana State University, Baton Rouge, LA</p>
+              <p class="timeline-courses"><strong>Courses:</strong> Computer Vision, Machine Learning, Optimization Algorithms, Adaptive Control &amp; Reinforcement Learning</p>
             </div>
           </li>
           <li class="timeline-item">
@@ -89,6 +109,7 @@
               <p class="timeline-date">July 2021</p>
               <h3>M.S., Mechanical Engineering &ndash; Robotics &amp; Control</h3>
               <p>Louisiana State University, Baton Rouge, LA</p>
+              <p class="timeline-courses"><strong>Courses:</strong> Industrial Robotics, Control System Design, Advanced Linear Systems</p>
             </div>
           </li>
           <li class="timeline-item">
@@ -135,7 +156,184 @@
       </div>
     </section>
 
-    <section id="skills" class="section alt">
+    <section id="projects" class="section alt">
+      <div class="container">
+        <h2 class="section-title">Projects</h2>
+        <div class="card-grid">
+          <article class="card">
+            <div class="card-media">
+              <video src="assets/img/Improved_Intesection_Vision.mp4" autoplay muted loop playsinline aria-label="Computer vision demo of vehicle trajectory tracking and turn counting at a signalized intersection"></video>
+            </div>
+            <div class="card-body">
+              <p class="card-eyebrow">LADOTD &middot; LTRC &middot;  2024&ndash;2025</p>
+              <h3>Improved Signalized Intersection Performance Using Computer Vision &amp; AI</h3>
+              <p>End-to-end deep learning + rule-based vision pipeline for vehicle detection, tracking & trajectory extraction, speed estimation, turn count &amp; queue estimation; 
+                traffic light detection from multi-camera feedback. Automated traffic analytics with ~70% reduction in manual efforts.</p>
+              <div class="card-actions">
+                <!-- TODO: add GitHub repo link -->
+                <a class="btn-icon btn-icon-pending" href="#" aria-disabled="true">
+                  <svg viewBox="0 0 16 16" width="16" height="16" fill="currentColor" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8a8 8 0 0 0 5.47 7.59c.4.07.55-.17.55-.38v-1.49c-2.22.48-2.69-1.07-2.69-1.07-.36-.92-.89-1.16-.89-1.16-.72-.5.06-.49.06-.49.8.06 1.22.82 1.22.82.71 1.22 1.87.87 2.33.66.07-.52.28-.87.5-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.01.08-2.12 0 0 .67-.21 2.2.82a7.65 7.65 0 0 1 4 0c1.53-1.03 2.2-.82 2.2-.82.44 1.11.16 1.92.08 2.12.51.56.82 1.28.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48v2.2c0 .21.15.46.55.38A8 8 0 0 0 16 8c0-4.42-3.58-8-8-8Z"/></svg>
+                  GitHub
+                </a>
+                <a class="btn-icon" href="https://rosap.ntl.bts.gov/view/dot/92000" target="_blank" rel="noopener">
+                  <svg viewBox="0 0 16 16" width="16" height="16" fill="currentColor" aria-hidden="true"><path d="M4 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.83A2 2 0 0 0 13.41 3.4L10.6.59A2 2 0 0 0 9.17 0H4Zm0 1.5h5V4a1.5 1.5 0 0 0 1.5 1.5h2.5V14a.5.5 0 0 1-.5.5H4a.5.5 0 0 1-.5-.5V2a.5.5 0 0 1 .5-.5Zm5.5.56 2.44 2.44H10a.5.5 0 0 1-.5-.5V2.06ZM5 8h6v1H5V8Zm0 2.5h6v1H5v-1ZM5 13h4v1H5v-1Z"/></svg>
+                  Doc
+                </a>
+                <a class="btn-icon" href="https://www.youtube.com/watch?v=oHMPOGlydX4&list=PLhvw3mw86d7c5SgdTHQOtOEzf2uBCYwrv&index=3" target="_blank" rel="noopener">
+                  <svg viewBox="0 0 16 16" width="16" height="16" fill="currentColor" aria-hidden="true"><path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14Zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16Z"/><path d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445Z"/></svg>
+                  Video
+                </a>
+              </div>
+              <p class="card-note">Code repository to be released</p>
+            </div>
+          </article>
+          <article class="card">
+            <div class="card-media">
+              <video src="assets/img/Foreign_material_detection_demo.mp4" autoplay muted loop playsinline aria-label="Real-time foreign material detection demo on conveyor inspection unit"></video>
+            </div>
+            <div class="card-body">
+              <p class="card-eyebrow">Internship &middot; Laitram Machinery &middot; 2025</p>
+              <h3>Real-Time Foreign Material Detection for Conveyor Inspection</h3>
+              <p>Real-time foreign material detection algorithm using Deep learning-based Global Context Anomaly detection + Heuristic feature engineering on a GigE line-scan camera+ PLC controlled automated conveyor inspection R&amp;D unit. Accuracy 95%+ at ~10&nbsp;ms/frame.</p>
+              <p class="card-note">Proprietary industry project</p>
+            </div>
+          </article>
+          <article class="card">
+            <div class="card-media">
+              <video src="assets/img/Traffic_Light_Detection-demo.mp4" autoplay muted loop playsinline aria-label="Traffic light detection and recognition demo"></video>
+            </div>
+            <div class="card-body">
+              <p class="card-eyebrow">Tran-SET &middot; 2022&ndash;2023</p>
+              <h3>Vision-based Traffic Light Detection (Vehicle Perception)</h3>
+              <p>Deep-learning-based traffic light detection and classification for AV perception/ADAS applications. Edge-deployed models; Low-light accuracy improvements; Benchmark datasets modifications. Real-time latency.</p>
+              <div class="card-actions">
+                <!-- TODO: add GitHub repo and Poster links -->
+                <a class="btn-icon btn-icon-pending" href="#" aria-disabled="true">
+                  <svg viewBox="0 0 16 16" width="16" height="16" fill="currentColor" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8a8 8 0 0 0 5.47 7.59c.4.07.55-.17.55-.38v-1.49c-2.22.48-2.69-1.07-2.69-1.07-.36-.92-.89-1.16-.89-1.16-.72-.5.06-.49.06-.49.8.06 1.22.82 1.22.82.71 1.22 1.87.87 2.33.66.07-.52.28-.87.5-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.01.08-2.12 0 0 .67-.21 2.2.82a7.65 7.65 0 0 1 4 0c1.53-1.03 2.2-.82 2.2-.82.44 1.11.16 1.92.08 2.12.51.56.82 1.28.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48v2.2c0 .21.15.46.55.38A8 8 0 0 0 16 8c0-4.42-3.58-8-8-8Z"/></svg>
+                  GitHub
+                </a>
+                <a class="btn-icon btn-icon-pending" href="#" aria-disabled="true">
+                  <svg viewBox="0 0 16 16" width="16" height="16" fill="currentColor" aria-hidden="true"><path d="M4 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.83A2 2 0 0 0 13.41 3.4L10.6.59A2 2 0 0 0 9.17 0H4Zm0 1.5h5V4a1.5 1.5 0 0 0 1.5 1.5h2.5V14a.5.5 0 0 1-.5.5H4a.5.5 0 0 1-.5-.5V2a.5.5 0 0 1 .5-.5Zm5.5.56 2.44 2.44H10a.5.5 0 0 1-.5-.5V2.06ZM5 8h6v1H5V8Zm0 2.5h6v1H5v-1ZM5 13h4v1H5v-1Z"/></svg>
+                  Doc
+                </a>
+                <a class="btn-icon" href="https://www.youtube.com/watch?v=EWyNOFQ1JlQ&list=PLhvw3mw86d7c5SgdTHQOtOEzf2uBCYwrv" target="_blank" rel="noopener">
+                  <svg viewBox="0 0 16 16" width="16" height="16" fill="currentColor" aria-hidden="true"><path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14Zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16Z"/><path d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445Z"/></svg>
+                  Video
+                </a>
+                <a class="btn-icon btn-icon-pending" href="#" aria-disabled="true">
+                  <svg viewBox="0 0 16 16" width="16" height="16" fill="currentColor" aria-hidden="true"><path d="M6.002 5.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0Z"/><path d="M2.002 1a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2h-12Zm12 1a1 1 0 0 1 1 1v6.5l-3.777-1.947a.5.5 0 0 0-.577.093l-3.71 3.71-2.66-1.772a.5.5 0 0 0-.63.062L1.002 12V3a1 1 0 0 1 1-1h12Z"/></svg>
+                  Poster
+                </a>
+              </div>
+              <p class="card-note">Code repository to be released</p>
+            </div>
+          </article>
+          <article class="card">
+            <div class="card-media">
+              <video src="assets/img/ECO-AND_OC_controlled_vehicles_Singlelane.mp4" autoplay muted loop playsinline aria-label="Eco-driving simulation with connected and autonomous vehicles on a single lane approach"></video>
+            </div>
+            <div class="card-body">
+              <p class="card-eyebrow">Tran-SET &middot; LTRC &middot; 2022&ndash;2023</p>
+              <h3>Eco-Driving of Connected Vehicles at Signalized Intersections</h3>
+              <p>Advisory vehicle speed generation for non-stop green signal crossing using Optimal Control strategy&mdash; reduction in SUMO simulated congestion delay & vehicle fuel consumption at different CAV Market Penetration Rates.</p>
+              <div class="card-actions">
+                <a class="btn-icon" href="https://github.com/tonmoy-TS/Signalized_Intersection_Optimization-SUMO" target="_blank" rel="noopener">
+                  <svg viewBox="0 0 16 16" width="16" height="16" fill="currentColor" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8a8 8 0 0 0 5.47 7.59c.4.07.55-.17.55-.38v-1.49c-2.22.48-2.69-1.07-2.69-1.07-.36-.92-.89-1.16-.89-1.16-.72-.5.06-.49.06-.49.8.06 1.22.82 1.22.82.71 1.22 1.87.87 2.33.66.07-.52.28-.87.5-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.01.08-2.12 0 0 .67-.21 2.2.82a7.65 7.65 0 0 1 4 0c1.53-1.03 2.2-.82 2.2-.82.44 1.11.16 1.92.08 2.12.51.56.82 1.28.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48v2.2c0 .21.15.46.55.38A8 8 0 0 0 16 8c0-4.42-3.58-8-8-8Z"/></svg>
+                  GitHub
+                </a>
+                <a class="btn-icon" href="https://repository.lsu.edu/transet_pubs/180/" target="_blank" rel="noopener">
+                  <svg viewBox="0 0 16 16" width="16" height="16" fill="currentColor" aria-hidden="true"><path d="M4 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.83A2 2 0 0 0 13.41 3.4L10.6.59A2 2 0 0 0 9.17 0H4Zm0 1.5h5V4a1.5 1.5 0 0 0 1.5 1.5h2.5V14a.5.5 0 0 1-.5.5H4a.5.5 0 0 1-.5-.5V2a.5.5 0 0 1 .5-.5Zm5.5.56 2.44 2.44H10a.5.5 0 0 1-.5-.5V2.06ZM5 8h6v1H5V8Zm0 2.5h6v1H5v-1ZM5 13h4v1H5v-1Z"/></svg>
+                  Doc
+                </a>
+              </div>
+            </div>
+          </article>
+          <article class="card">
+            <div class="card-media">
+              <video src="assets/img/NASA_Intellidrone.mp4" autoplay muted loop playsinline aria-label="Intelligent drone emergency response demo"></video>
+            </div>
+            <div class="card-body">
+              <p class="card-eyebrow">NASA USRC &middot; 2023&ndash;2025</p>
+              <h3>Intelligent Drone for Emergency Response Operations</h3>
+              <p>Integrated UAV platform with RGB+thermal imaging, long-range transmission, hazardous gas detection, vision-based human detection in low-visibility environments.</p>
+              <div class="card-actions">
+                <a class="btn-icon btn-icon-pending" href="#" aria-disabled="true">
+                  <svg viewBox="0 0 16 16" width="16" height="16" fill="currentColor" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8a8 8 0 0 0 5.47 7.59c.4.07.55-.17.55-.38v-1.49c-2.22.48-2.69-1.07-2.69-1.07-.36-.92-.89-1.16-.89-1.16-.72-.5.06-.49.06-.49.8.06 1.22.82 1.22.82.71 1.22 1.87.87 2.33.66.07-.52.28-.87.5-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.01.08-2.12 0 0 .67-.21 2.2.82a7.65 7.65 0 0 1 4 0c1.53-1.03 2.2-.82 2.2-.82.44 1.11.16 1.92.08 2.12.51.56.82 1.28.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48v2.2c0 .21.15.46.55.38A8 8 0 0 0 16 8c0-4.42-3.58-8-8-8Z"/></svg>
+                  GitHub
+                </a>
+                <a class="btn-icon btn-icon-pending" href="#" aria-disabled="true">
+                  <svg viewBox="0 0 16 16" width="16" height="16" fill="currentColor" aria-hidden="true"><path d="M4 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.83A2 2 0 0 0 13.41 3.4L10.6.59A2 2 0 0 0 9.17 0H4Zm0 1.5h5V4a1.5 1.5 0 0 0 1.5 1.5h2.5V14a.5.5 0 0 1-.5.5H4a.5.5 0 0 1-.5-.5V2a.5.5 0 0 1 .5-.5Zm5.5.56 2.44 2.44H10a.5.5 0 0 1-.5-.5V2.06ZM5 8h6v1H5V8Zm0 2.5h6v1H5v-1ZM5 13h4v1H5v-1Z"/></svg>
+                  Doc
+                </a>
+              </div>
+            </div>
+          </article>
+          <article class="card">
+            <div class="card-media">
+              <video src="assets/img/TigerSquare_Formation_experiments.mp4" autoplay muted loop playsinline aria-label="TigerSquare multi-robot formation control experiments"></video>
+            </div>
+            <div class="card-body">
+              <p class="card-eyebrow">MS Thesis &middot; NASA LaSpace &middot; 2019&ndash;2021</p>
+              <h3>TigerSquare: Decentralized Distance-Based Formation Control for Robot-Swarm</h3>
+              <p>Optimized decentralized closed-loop control logic and communication latency for multi-robot coordination. ~0.1% error margin versus camera-feedback global localization.</p>
+              <div class="card-actions">
+                <a class="btn-icon" href="https://github.com/tonmoy-TS/TIGERSquare-Decentralized-Processing" target="_blank" rel="noopener">
+                  <svg viewBox="0 0 16 16" width="16" height="16" fill="currentColor" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8a8 8 0 0 0 5.47 7.59c.4.07.55-.17.55-.38v-1.49c-2.22.48-2.69-1.07-2.69-1.07-.36-.92-.89-1.16-.89-1.16-.72-.5.06-.49.06-.49.8.06 1.22.82 1.22.82.71 1.22 1.87.87 2.33.66.07-.52.28-.87.5-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.01.08-2.12 0 0 .67-.21 2.2.82a7.65 7.65 0 0 1 4 0c1.53-1.03 2.2-.82 2.2-.82.44 1.11.16 1.92.08 2.12.51.56.82 1.28.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48v2.2c0 .21.15.46.55.38A8 8 0 0 0 16 8c0-4.42-3.58-8-8-8Z"/></svg>
+                  GitHub
+                </a>
+                <a class="btn-icon" href="https://github.com/tonmoy-TS/TIGERSquare-Decentralized-Processing/blob/main/docs/DECENTRALIZED%20PROCESSING%20FOR%20DISTANCE%20BASED%20FORMATION%20CONTROL_Tonmoy%20Sarker_2021.pdf" target="_blank" rel="noopener">
+                  <svg viewBox="0 0 16 16" width="16" height="16" fill="currentColor" aria-hidden="true"><path d="M4 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.83A2 2 0 0 0 13.41 3.4L10.6.59A2 2 0 0 0 9.17 0H4Zm0 1.5h5V4a1.5 1.5 0 0 0 1.5 1.5h2.5V14a.5.5 0 0 1-.5.5H4a.5.5 0 0 1-.5-.5V2a.5.5 0 0 1 .5-.5Zm5.5.56 2.44 2.44H10a.5.5 0 0 1-.5-.5V2.06ZM5 8h6v1H5V8Zm0 2.5h6v1H5v-1ZM5 13h4v1H5v-1Z"/></svg>
+                  Doc
+                </a>
+                <a class="btn-icon" href="https://www.youtube.com/watch?v=H2j8ldSZRps" target="_blank" rel="noopener">
+                  <svg viewBox="0 0 16 16" width="16" height="16" fill="currentColor" aria-hidden="true"><path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14Zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16Z"/><path d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445Z"/></svg>
+                  Video
+                </a>
+                <a class="btn-icon" href="https://github.com/tonmoy-TS/TIGERSquare-Decentralized-Processing/blob/main/docs/Towards_Decentralized_Experimental_Implementation_of_Distance_based_Formation_Controllers_AIM_2021.pdf" target="_blank" rel="noopener">
+                  <svg viewBox="0 0 16 16" width="16" height="16" fill="currentColor" aria-hidden="true"><path d="M6.002 5.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0Z"/><path d="M2.002 1a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2h-12Zm12 1a1 1 0 0 1 1 1v6.5l-3.777-1.947a.5.5 0 0 0-.577.093l-3.71 3.71-2.66-1.772a.5.5 0 0 0-.63.062L1.002 12V3a1 1 0 0 1 1-1h12Z"/></svg>
+                  Poster
+                </a>
+              </div>
+            </div>
+          </article>
+          <article class="card">
+            <div class="card-media">
+              <video src="assets/img/Vex_forward_motion.mp4" autoplay muted loop playsinline aria-label="VEX robot autonomous forward motion demo"></video>
+            </div>
+            <div class="card-body">
+              <p class="card-eyebrow"> 2021</p>
+              <h3>VEX- Robot Drivetrain Control</h3>
+              <p>Drivetrain control implementation for VEX EDR robot &ndash; open-loop timed drive, bang-bang closed-loop, proportional closed-loop, and sonar station-keeping.</p>
+              <div class="card-actions">
+                <a class="btn-icon" href="https://github.com/tonmoy-TS/VEX-Robotics-Drivetrain-Control" target="_blank" rel="noopener">
+                  <svg viewBox="0 0 16 16" width="16" height="16" fill="currentColor" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8a8 8 0 0 0 5.47 7.59c.4.07.55-.17.55-.38v-1.49c-2.22.48-2.69-1.07-2.69-1.07-.36-.92-.89-1.16-.89-1.16-.72-.5.06-.49.06-.49.8.06 1.22.82 1.22.82.71 1.22 1.87.87 2.33.66.07-.52.28-.87.5-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.01.08-2.12 0 0 .67-.21 2.2.82a7.65 7.65 0 0 1 4 0c1.53-1.03 2.2-.82 2.2-.82.44 1.11.16 1.92.08 2.12.51.56.82 1.28.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48v2.2c0 .21.15.46.55.38A8 8 0 0 0 16 8c0-4.42-3.58-8-8-8Z"/></svg>
+                  GitHub
+                </a>
+                <a class="btn-icon" href="https://github.com/tonmoy-TS/VEX-Robotics-Drivetrain-Control/blob/main/Control_Methods.pdf" target="_blank" rel="noopener">
+                  <svg viewBox="0 0 16 16" width="16" height="16" fill="currentColor" aria-hidden="true"><path d="M4 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.83A2 2 0 0 0 13.41 3.4L10.6.59A2 2 0 0 0 9.17 0H4Zm0 1.5h5V4a1.5 1.5 0 0 0 1.5 1.5h2.5V14a.5.5 0 0 1-.5.5H4a.5.5 0 0 1-.5-.5V2a.5.5 0 0 1 .5-.5Zm5.5.56 2.44 2.44H10a.5.5 0 0 1-.5-.5V2.06ZM5 8h6v1H5V8Zm0 2.5h6v1H5v-1ZM5 13h4v1H5v-1Z"/></svg>
+                  Doc
+                </a>
+              </div>
+            </div>
+          </article>
+          <article class="card">
+            <div class="card-body">
+              <p class="card-eyebrow">Ongoing</p>
+              <h3>Control Engineering Resources</h3>
+              <p>A curated collection of control engineering coursework, notes, and MATLAB/Simulink projects covering classical and modern control theory.</p>
+              <div class="card-actions">
+                <a class="btn-icon" href="https://github.com/tonmoy-TS/Control-engineering-resources" target="_blank" rel="noopener">
+                  <svg viewBox="0 0 16 16" width="16" height="16" fill="currentColor" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8a8 8 0 0 0 5.47 7.59c.4.07.55-.17.55-.38v-1.49c-2.22.48-2.69-1.07-2.69-1.07-.36-.92-.89-1.16-.89-1.16-.72-.5.06-.49.06-.49.8.06 1.22.82 1.22.82.71 1.22 1.87.87 2.33.66.07-.52.28-.87.5-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.01.08-2.12 0 0 .67-.21 2.2.82a7.65 7.65 0 0 1 4 0c1.53-1.03 2.2-.82 2.2-.82.44 1.11.16 1.92.08 2.12.51.56.82 1.28.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48v2.2c0 .21.15.46.55.38A8 8 0 0 0 16 8c0-4.42-3.58-8-8-8Z"/></svg>
+                  GitHub
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
       <div class="container">
         <h2 class="section-title">Skills</h2>
         <div class="skills-grid">
@@ -148,7 +346,7 @@
           <div class="skill-card">
             <h3>Industrial Control &amp; Automation</h3>
             <div class="tag-row">
-              <span class="tag">PID / Feedback Control</span><span class="tag">Allen-Bradley / RSLogix</span><span class="tag">Beckhoff TwinCAT</span><span class="tag">Siemens TIA Portal</span><span class="tag">Emerson DeltaV DCS</span><span class="tag">HMI/SCADA</span>
+              <span class="tag">PID / Feedback Control</span><span class="tag">Allen-Bradley RSLogix, CCW</span><span class="tag">Siemens TIA Portal</span><span class="tag">HMI/SCADA</span>
             </div>
           </div>
           <div class="skill-card">
@@ -179,192 +377,66 @@
       </div>
     </section>
 
-    <section id="projects" class="section">
-      <div class="container">
-        <h2 class="section-title">Projects</h2>
-        <div class="card-grid">
-          <article class="card">
-            <!-- Replace with <img>/<video> once you have media, e.g. <img src="assets/img/projects/intersection.gif" alt="..."> -->
-            <div class="card-media" aria-hidden="true">Add image / GIF / video</div>
-            <div class="card-body">
-              <p class="card-eyebrow">LADOTD &middot; 2024&ndash;2025</p>
-              <h3>Improved Signalized Intersection Performance Using Computer Vision &amp; AI</h3>
-              <p>Delivered a low-budget end-to-end vision-AI solution for vehicle trajectory/motion extraction, tracking, turn count, and queue estimation &mdash; up to 97% accuracy while cutting ~70% of manual video analysis effort.</p>
-              <div class="card-actions">
-                <!-- TODO: add GitHub repo link -->
-                <a class="btn-icon" href="#" target="_blank" rel="noopener">
-                  <svg viewBox="0 0 16 16" width="16" height="16" fill="currentColor" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8a8 8 0 0 0 5.47 7.59c.4.07.55-.17.55-.38v-1.49c-2.22.48-2.69-1.07-2.69-1.07-.36-.92-.89-1.16-.89-1.16-.72-.5.06-.49.06-.49.8.06 1.22.82 1.22.82.71 1.22 1.87.87 2.33.66.07-.52.28-.87.5-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.01.08-2.12 0 0 .67-.21 2.2.82a7.65 7.65 0 0 1 4 0c1.53-1.03 2.2-.82 2.2-.82.44 1.11.16 1.92.08 2.12.51.56.82 1.28.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48v2.2c0 .21.15.46.55.38A8 8 0 0 0 16 8c0-4.42-3.58-8-8-8Z"/></svg>
-                  GitHub
-                </a>
-                <a class="btn-icon" href="https://rosap.ntl.bts.gov/view/dot/92000" target="_blank" rel="noopener">
-                  <svg viewBox="0 0 16 16" width="16" height="16" fill="currentColor" aria-hidden="true"><path d="M4 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.83A2 2 0 0 0 13.41 3.4L10.6.59A2 2 0 0 0 9.17 0H4Zm0 1.5h5V4a1.5 1.5 0 0 0 1.5 1.5h2.5V14a.5.5 0 0 1-.5.5H4a.5.5 0 0 1-.5-.5V2a.5.5 0 0 1 .5-.5Zm5.5.56 2.44 2.44H10a.5.5 0 0 1-.5-.5V2.06ZM5 8h6v1H5V8Zm0 2.5h6v1H5v-1ZM5 13h4v1H5v-1Z"/></svg>
-                  Doc
-                </a>
-              </div>
-            </div>
-          </article>
-          <article class="card">
-            <div class="card-media">
-              <video src="assets/img/Foreign_material_detection_demo.mp4" autoplay muted loop playsinline aria-label="Real-time foreign material detection demo on conveyor inspection unit"></video>
-            </div>
-            <div class="card-body">
-              <p class="card-eyebrow">Laitram Machinery &middot; 2025</p>
-              <h3>Real-Time Foreign Material Detection for Conveyor Inspection</h3>
-              <p>Developed and integrated a real-time foreign material detection algorithm (HALCON, OpenCV) for a proprietary automated conveyor inspection R&amp;D unit, achieving 95%+ detection accuracy at ~10&nbsp;ms/frame. Included GigE Vision camera calibration/synchronization and integration with PLC-controlled (Beckhoff, Allen-Bradley) manufacturing equipment.</p>
-              <p class="card-note">Proprietary industry project &mdash; no public repo</p>
-            </div>
-          </article>
-          <article class="card">
-            <div class="card-media">
-              <video src="assets/img/Traffic_Light_Detection-demo.mp4" autoplay muted loop playsinline aria-label="Traffic light detection and recognition demo"></video>
-            </div>
-            <div class="card-body">
-              <p class="card-eyebrow">Tran-SET &middot; 2022&ndash;2023</p>
-              <h3>Traffic Light Detection &amp; Recognition</h3>
-              <p>Developed an end-to-end deep-learning-based traffic signal detection and recognition algorithm for autonomous vehicles, and authored a review of existing detection/recognition approaches in the literature.</p>
-              <div class="card-actions">
-                <!-- TODO: add GitHub repo and Poster links -->
-                <a class="btn-icon" href="#" target="_blank" rel="noopener">
-                  <svg viewBox="0 0 16 16" width="16" height="16" fill="currentColor" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8a8 8 0 0 0 5.47 7.59c.4.07.55-.17.55-.38v-1.49c-2.22.48-2.69-1.07-2.69-1.07-.36-.92-.89-1.16-.89-1.16-.72-.5.06-.49.06-.49.8.06 1.22.82 1.22.82.71 1.22 1.87.87 2.33.66.07-.52.28-.87.5-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.01.08-2.12 0 0 .67-.21 2.2.82a7.65 7.65 0 0 1 4 0c1.53-1.03 2.2-.82 2.2-.82.44 1.11.16 1.92.08 2.12.51.56.82 1.28.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48v2.2c0 .21.15.46.55.38A8 8 0 0 0 16 8c0-4.42-3.58-8-8-8Z"/></svg>
-                  GitHub
-                </a>
-                <a class="btn-icon" href="#" target="_blank" rel="noopener">
-                  <svg viewBox="0 0 16 16" width="16" height="16" fill="currentColor" aria-hidden="true"><path d="M4 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.83A2 2 0 0 0 13.41 3.4L10.6.59A2 2 0 0 0 9.17 0H4Zm0 1.5h5V4a1.5 1.5 0 0 0 1.5 1.5h2.5V14a.5.5 0 0 1-.5.5H4a.5.5 0 0 1-.5-.5V2a.5.5 0 0 1 .5-.5Zm5.5.56 2.44 2.44H10a.5.5 0 0 1-.5-.5V2.06ZM5 8h6v1H5V8Zm0 2.5h6v1H5v-1ZM5 13h4v1H5v-1Z"/></svg>
-                  Doc
-                </a>
-                <a class="btn-icon" href="https://www.youtube.com/watch?v=EWyNOFQ1JlQ&list=PLhvw3mw86d7c5SgdTHQOtOEzf2uBCYwrv" target="_blank" rel="noopener">
-                  <svg viewBox="0 0 16 16" width="16" height="16" fill="currentColor" aria-hidden="true"><path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14Zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16Z"/><path d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445Z"/></svg>
-                  Video
-                </a>
-                <a class="btn-icon" href="#" target="_blank" rel="noopener">
-                  <svg viewBox="0 0 16 16" width="16" height="16" fill="currentColor" aria-hidden="true"><path d="M6.002 5.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0Z"/><path d="M2.002 1a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2h-12Zm12 1a1 1 0 0 1 1 1v6.5l-3.777-1.947a.5.5 0 0 0-.577.093l-3.71 3.71-2.66-1.772a.5.5 0 0 0-.63.062L1.002 12V3a1 1 0 0 1 1-1h12Z"/></svg>
-                  Poster
-                </a>
-              </div>
-            </div>
-          </article>
-          <article class="card">
-            <div class="card-media">
-              <video src="assets/img/ECO-AND_OC_controlled_vehicles_Singlelane.mp4" autoplay muted loop playsinline aria-label="Eco-driving simulation with connected and autonomous vehicles on a single lane approach"></video>
-            </div>
-            <div class="card-body">
-              <p class="card-eyebrow">Tran-SET / LADOTD &middot; 2022&ndash;2023</p>
-              <h3>Eco-Driving of Connected Vehicles at Signalized Intersections</h3>
-              <p>Co-designed an advisory vehicle speed generation algorithm for non-stop green signal crossing &mdash; up to 11% reduction in congestion delay and 4% reduction in fuel consumption in simulation.</p>
-              <div class="card-actions">
-                <a class="btn-icon" href="https://github.com/tonmoy-TS/Signalized_Intersection_Optimization-SUMO" target="_blank" rel="noopener">
-                  <svg viewBox="0 0 16 16" width="16" height="16" fill="currentColor" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8a8 8 0 0 0 5.47 7.59c.4.07.55-.17.55-.38v-1.49c-2.22.48-2.69-1.07-2.69-1.07-.36-.92-.89-1.16-.89-1.16-.72-.5.06-.49.06-.49.8.06 1.22.82 1.22.82.71 1.22 1.87.87 2.33.66.07-.52.28-.87.5-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.01.08-2.12 0 0 .67-.21 2.2.82a7.65 7.65 0 0 1 4 0c1.53-1.03 2.2-.82 2.2-.82.44 1.11.16 1.92.08 2.12.51.56.82 1.28.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48v2.2c0 .21.15.46.55.38A8 8 0 0 0 16 8c0-4.42-3.58-8-8-8Z"/></svg>
-                  GitHub
-                </a>
-                <a class="btn-icon" href="https://repository.lsu.edu/transet_pubs/180/" target="_blank" rel="noopener">
-                  <svg viewBox="0 0 16 16" width="16" height="16" fill="currentColor" aria-hidden="true"><path d="M4 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.83A2 2 0 0 0 13.41 3.4L10.6.59A2 2 0 0 0 9.17 0H4Zm0 1.5h5V4a1.5 1.5 0 0 0 1.5 1.5h2.5V14a.5.5 0 0 1-.5.5H4a.5.5 0 0 1-.5-.5V2a.5.5 0 0 1 .5-.5Zm5.5.56 2.44 2.44H10a.5.5 0 0 1-.5-.5V2.06ZM5 8h6v1H5V8Zm0 2.5h6v1H5v-1ZM5 13h4v1H5v-1Z"/></svg>
-                  Doc
-                </a>
-              </div>
-            </div>
-          </article>
-          <article class="card">
-            <div class="card-media">
-              <video src="assets/img/NASA_Intellidrone.mp4" autoplay muted loop playsinline aria-label="Intelligent drone emergency response demo"></video>
-            </div>
-            <div class="card-body">
-              <p class="card-eyebrow">NASA USRC &middot; 2023&ndash;2025</p>
-              <h3>Intelligent Drone for Emergency Response Operations</h3>
-              <p>Developed an integrated UAV platform combining RGB-thermal imaging, long-range communication, and computer-vision-based human activity detection in low-visibility environments.</p>
-              <div class="card-actions">
-                <a class="btn-icon" href="#" target="_blank" rel="noopener">
-                  <svg viewBox="0 0 16 16" width="16" height="16" fill="currentColor" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8a8 8 0 0 0 5.47 7.59c.4.07.55-.17.55-.38v-1.49c-2.22.48-2.69-1.07-2.69-1.07-.36-.92-.89-1.16-.89-1.16-.72-.5.06-.49.06-.49.8.06 1.22.82 1.22.82.71 1.22 1.87.87 2.33.66.07-.52.28-.87.5-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.01.08-2.12 0 0 .67-.21 2.2.82a7.65 7.65 0 0 1 4 0c1.53-1.03 2.2-.82 2.2-.82.44 1.11.16 1.92.08 2.12.51.56.82 1.28.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48v2.2c0 .21.15.46.55.38A8 8 0 0 0 16 8c0-4.42-3.58-8-8-8Z"/></svg>
-                  GitHub
-                </a>
-                <a class="btn-icon" href="#" target="_blank" rel="noopener">
-                  <svg viewBox="0 0 16 16" width="16" height="16" fill="currentColor" aria-hidden="true"><path d="M4 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.83A2 2 0 0 0 13.41 3.4L10.6.59A2 2 0 0 0 9.17 0H4Zm0 1.5h5V4a1.5 1.5 0 0 0 1.5 1.5h2.5V14a.5.5 0 0 1-.5.5H4a.5.5 0 0 1-.5-.5V2a.5.5 0 0 1 .5-.5Zm5.5.56 2.44 2.44H10a.5.5 0 0 1-.5-.5V2.06ZM5 8h6v1H5V8Zm0 2.5h6v1H5v-1ZM5 13h4v1H5v-1Z"/></svg>
-                  Doc
-                </a>
-              </div>
-            </div>
-          </article>
-          <article class="card">
-            <div class="card-media">
-              <video src="assets/img/TigerSquare_Formation_experiments.mp4" autoplay muted loop playsinline aria-label="TigerSquare multi-robot formation control experiments"></video>
-            </div>
-            <div class="card-body">
-              <p class="card-eyebrow">MS Thesis &middot; NASA LaSpace &middot; 2019&ndash;2021</p>
-              <h3>TigerSquare: Decentralized Distance-Based Formation Control for Robot-Swarm Testbed</h3>
-              <p>Optimized decentralized closed-loop control logic and communication latency for multi-robot coordination, achieving ~0.1% error margin versus camera-feedback global localization.</p>
-              <div class="card-actions">
-                <a class="btn-icon" href="https://github.com/tonmoy-TS/TIGERSquare-Decentralized-Processing" target="_blank" rel="noopener">
-                  <svg viewBox="0 0 16 16" width="16" height="16" fill="currentColor" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8a8 8 0 0 0 5.47 7.59c.4.07.55-.17.55-.38v-1.49c-2.22.48-2.69-1.07-2.69-1.07-.36-.92-.89-1.16-.89-1.16-.72-.5.06-.49.06-.49.8.06 1.22.82 1.22.82.71 1.22 1.87.87 2.33.66.07-.52.28-.87.5-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.01.08-2.12 0 0 .67-.21 2.2.82a7.65 7.65 0 0 1 4 0c1.53-1.03 2.2-.82 2.2-.82.44 1.11.16 1.92.08 2.12.51.56.82 1.28.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48v2.2c0 .21.15.46.55.38A8 8 0 0 0 16 8c0-4.42-3.58-8-8-8Z"/></svg>
-                  GitHub
-                </a>
-                <a class="btn-icon" href="https://github.com/tonmoy-TS/TIGERSquare-Decentralized-Processing/blob/main/docs/DECENTRALIZED%20PROCESSING%20FOR%20DISTANCE%20BASED%20FORMATION%20CONTROL_Tonmoy%20Sarker_2021.pdf" target="_blank" rel="noopener">
-                  <svg viewBox="0 0 16 16" width="16" height="16" fill="currentColor" aria-hidden="true"><path d="M4 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.83A2 2 0 0 0 13.41 3.4L10.6.59A2 2 0 0 0 9.17 0H4Zm0 1.5h5V4a1.5 1.5 0 0 0 1.5 1.5h2.5V14a.5.5 0 0 1-.5.5H4a.5.5 0 0 1-.5-.5V2a.5.5 0 0 1 .5-.5Zm5.5.56 2.44 2.44H10a.5.5 0 0 1-.5-.5V2.06ZM5 8h6v1H5V8Zm0 2.5h6v1H5v-1ZM5 13h4v1H5v-1Z"/></svg>
-                  Doc
-                </a>
-                <a class="btn-icon" href="https://www.youtube.com/watch?v=H2j8ldSZRps" target="_blank" rel="noopener">
-                  <svg viewBox="0 0 16 16" width="16" height="16" fill="currentColor" aria-hidden="true"><path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14Zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16Z"/><path d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445Z"/></svg>
-                  Video
-                </a>
-                <a class="btn-icon" href="https://github.com/tonmoy-TS/TIGERSquare-Decentralized-Processing/blob/main/docs/Towards_Decentralized_Experimental_Implementation_of_Distance_based_Formation_Controllers_AIM_2021.pdf" target="_blank" rel="noopener">
-                  <svg viewBox="0 0 16 16" width="16" height="16" fill="currentColor" aria-hidden="true"><path d="M6.002 5.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0Z"/><path d="M2.002 1a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2h-12Zm12 1a1 1 0 0 1 1 1v6.5l-3.777-1.947a.5.5 0 0 0-.577.093l-3.71 3.71-2.66-1.772a.5.5 0 0 0-.63.062L1.002 12V3a1 1 0 0 1 1-1h12Z"/></svg>
-                  Poster
-                </a>
-              </div>
-            </div>
-          </article>
-          <article class="card">
-            <div class="card-media">
-              <video src="assets/img/Vex_forward_motion.mp4" autoplay muted loop playsinline aria-label="VEX robot autonomous forward motion demo"></video>
-            </div>
-            <div class="card-body">
-              <p class="card-eyebrow">Personal Project &middot; 2021</p>
-              <h3>VEX Robotics Drivetrain Control</h3>
-              <p>Progressive autonomous drivetrain control for a VEX EDR robot: open-loop timed drive, bang-bang closed-loop, proportional closed-loop, and sonar station-keeping, with derivations comparing all four approaches.</p>
-              <div class="card-actions">
-                <a class="btn-icon" href="https://github.com/tonmoy-TS/VEX-Robotics-Drivetrain-Control" target="_blank" rel="noopener">
-                  <svg viewBox="0 0 16 16" width="16" height="16" fill="currentColor" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8a8 8 0 0 0 5.47 7.59c.4.07.55-.17.55-.38v-1.49c-2.22.48-2.69-1.07-2.69-1.07-.36-.92-.89-1.16-.89-1.16-.72-.5.06-.49.06-.49.8.06 1.22.82 1.22.82.71 1.22 1.87.87 2.33.66.07-.52.28-.87.5-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.01.08-2.12 0 0 .67-.21 2.2.82a7.65 7.65 0 0 1 4 0c1.53-1.03 2.2-.82 2.2-.82.44 1.11.16 1.92.08 2.12.51.56.82 1.28.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48v2.2c0 .21.15.46.55.38A8 8 0 0 0 16 8c0-4.42-3.58-8-8-8Z"/></svg>
-                  GitHub
-                </a>
-                <a class="btn-icon" href="https://github.com/tonmoy-TS/VEX-Robotics-Drivetrain-Control/blob/main/Control_Methods.pdf" target="_blank" rel="noopener">
-                  <svg viewBox="0 0 16 16" width="16" height="16" fill="currentColor" aria-hidden="true"><path d="M4 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.83A2 2 0 0 0 13.41 3.4L10.6.59A2 2 0 0 0 9.17 0H4Zm0 1.5h5V4a1.5 1.5 0 0 0 1.5 1.5h2.5V14a.5.5 0 0 1-.5.5H4a.5.5 0 0 1-.5-.5V2a.5.5 0 0 1 .5-.5Zm5.5.56 2.44 2.44H10a.5.5 0 0 1-.5-.5V2.06ZM5 8h6v1H5V8Zm0 2.5h6v1H5v-1ZM5 13h4v1H5v-1Z"/></svg>
-                  Doc
-                </a>
-              </div>
-            </div>
-          </article>
-        </div>
-      </div>
-    </section>
-
     <section id="publications" class="section alt">
       <div class="container">
-        <h2 class="section-title">Publications</h2>
-        <ul class="pub-list">
-          <li>
-            <p><strong>T. Sarker</strong>, X. Meng, M. Moomen, and J. A. Codjoe, &ldquo;Vision-Based Hybrid Framework for Vehicle Turn Movement Classification and Counting at Road Intersections,&rdquo; <em>IEEE Intelligent Transportation Systems Magazine</em>, 2026. <span class="pub-status">Submitted</span></p>
-          </li>
-          <li>
-            <p>M. Moomen, X. Meng, <strong>T. Sarker</strong>, J. B. Essuman, and C. Addo, &ldquo;Improved Signalized Intersection Performance Using Computer Vision and Artificial Intelligence,&rdquo; <em>Louisiana Transportation Research Center, Special Studies</em>, 2026.</p>
-          </li>
-          <li>
-            <p><strong>T. Sarker</strong> and X. Meng, &ldquo;Traffic Signal Detection and Recognition Algorithms for Autonomous Vehicles: A Brief Review,&rdquo; <em>ASCE Journal of Transportation Engineering, Part A: Systems</em>, 2024.</p>
-          </li>
-          <li>
-            <p>X. Meng and <strong>T. Sarker</strong>, &ldquo;Eco-Driving of Connected and Autonomous Vehicles Approaching and Departing Signalized Intersections,&rdquo; 2024.</p>
-          </li>
-          <li>
-            <p><strong>T. Sarker</strong> and X. Meng, &ldquo;Traffic Signal Recognition Using End-to-end Deep Learning,&rdquo; <em>Tran-SET 2022</em>, pp. 182&ndash;191, Austin, TX.</p>
-          </li>
-          <li>
-            <p>N. Saaquib, <strong>T. Sarker</strong>, N. Rahman, L. E. Khan, and P. K. Saha, &ldquo;Design and Development of a Wide Band Monopole Blade Antenna for Aircraft Navigation and Communication,&rdquo; <em>2017 6th International Conference on Informatics, Electronics &amp; Vision (ICIEV)</em>, 2017.</p>
-          </li>
-          <li>
-            <p><strong>T. Sarker</strong>, P. Hannan, S. A. Shahed, N. Rahman, and S. N. Sakib, &ldquo;Conceptual Design of a Low Cost Flight Data Acquisition System for Analyzing Flight Behavior of Small Unmanned Aerial Vehicles,&rdquo; <em>2016 19th International Conference on Computer and Information Technology (ICCIT)</em>, 2016.</p>
-          </li>
-        </ul>
+        <details class="collapsible">
+          <summary class="section-title">Publications</summary>
+          <div class="collapsible-body">
+            <ul class="pub-list">
+              <li>
+                <p><strong>T. Sarker</strong>, X. Meng, M. Moomen, and J. A. Codjoe, &ldquo;Vision-Based Hybrid Framework for Vehicle Turn Movement Classification and Counting at Road Intersections,&rdquo; <em>IEEE Intelligent Transportation Systems Magazine</em>, 2026. <span class="pub-status">Submitted</span></p>
+              </li>
+              <li>
+                <p>M. Moomen, X. Meng, <strong>T. Sarker</strong>, J. B. Essuman, and C. Addo, &ldquo;Improved Signalized Intersection Performance Using Computer Vision and Artificial Intelligence,&rdquo; <em>Louisiana Transportation Research Center, Special Studies, Report No. FHWA/LA.26/724 </em>, 2026.</p>
+              </li>
+              <li>
+                <p><strong>T. Sarker</strong> and X. Meng, &ldquo;Traffic Signal Detection and Recognition Algorithms for Autonomous Vehicles: A Brief Review,&rdquo; <em>ASCE Journal of Transportation Engineering, Part A: Systems</em>, 2024.</p>
+              </li>
+              <li>
+                <p>X. Meng and <strong>T. Sarker</strong>, &ldquo;Eco-Driving of Connected and Autonomous Vehicles Approaching and Departing Signalized Intersections,&rdquo; <em>Louisiana Transportation Research Center, Project No. 22ITSLSU41 </em>, 2024.</p>
+              </li>
+              <li>
+                <p><strong>T. Sarker</strong> and X. Meng, &ldquo;Traffic Signal Recognition Using End-to-end Deep Learning,&rdquo; <em>Tran-SET 2022</em>, pp. 182&ndash;191, Austin, TX.</p>
+              </li>
+              <li>
+                <p>N. Saaquib, <strong>T. Sarker</strong>, N. Rahman, L. E. Khan, and P. K. Saha, &ldquo;Design and Development of a Wide Band Monopole Blade Antenna for Aircraft Navigation and Communication,&rdquo; <em>2017 6th International Conference on Informatics, Electronics &amp; Vision (ICIEV)</em>, 2017.</p>
+              </li>
+              <li>
+                <p><strong>T. Sarker</strong>, P. Hannan, S. A. Shahed, N. Rahman, and S. N. Sakib, &ldquo;Conceptual Design of a Low Cost Flight Data Acquisition System for Analyzing Flight Behavior of Small Unmanned Aerial Vehicles,&rdquo; <em>2016 19th International Conference on Computer and Information Technology (ICCIT)</em>, 2016.</p>
+              </li>
+            </ul>
+          </div>
+        </details>
       </div>
     </section>
 
-    <section id="contact" class="section">
+    <section id="activities" class="section">
+      <div class="container">
+        <details class="collapsible">
+          <summary class="section-title">Activities &amp; Achievements</summary>
+          <div class="collapsible-body">
+            <h3>Activities &amp; Leadership</h3>
+            <ul class="activity-list">
+              <li>Vice President, Bangladeshi Students Association at LSU (2022&ndash;2024)</li>
+              <li>Student Member, IEEE-LSU and ITE-LSU Chapter (2022&ndash;2023)</li>
+              <li>Design Lead and Trainer, LSU REHAMS &amp; XCITE Summer Camp (2019&ndash;2020)</li>
+              <li>Cofounder and Vice President, MIST Aeronautics &amp; Astronautics Club, Dhaka (2016&ndash;2017)</li>
+            </ul>
+            <h3>Awards &amp; Honors</h3>
+            <ul class="activity-list">
+              <li>Best Poster Presentation Award, Graduate Research Conference, LSU (2023)</li>
+              <li>Mark and Carolyn Guidry Doctoral Scholarship, Division of Electrical &amp; Computer Engineering, LSU (2023)</li>
+              <li>Meritorious Award, 4th EECS Graduate Student Research Symposium, LSU (2022)</li>
+              <li>Higher Study &amp; Travel Grant, Bangladesh-Sweden Trust Fund (2020)</li>
+              <li>Best Undergrad Research Award, Dept. of Aeronautical Engineering, MIST, Dhaka (2017)</li>
+              <li>Best Undergrad Student Project Award, Dept. of Aeronautical Engineering, MIST, Dhaka (2017)</li>
+            </ul>
+          </div>
+        </details>
+      </div>
+    </section>
+
+    <section id="contact" class="section alt">
       <div class="container contact-grid">
         <div>
           <h2 class="section-title">Contact</h2>

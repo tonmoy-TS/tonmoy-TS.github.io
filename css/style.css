@@ -152,13 +152,18 @@ a:hover {
 
 .hero-grid {
   display: grid;
-  grid-template-columns: 180px 1fr;
+  grid-template-columns: minmax(180px, auto) 1fr;
   gap: 2.5rem;
   align-items: center;
 }
 
-.hero-photo img,
-.avatar-placeholder {
+.hero-photo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero-photo img {
   width: 160px;
   height: 160px;
   border-radius: 50%;
@@ -166,15 +171,13 @@ a:hover {
   border: 3px solid var(--border);
 }
 
-.avatar-placeholder {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: var(--accent);
-  color: var(--accent-contrast);
-  font-family: Georgia, serif;
-  font-size: 2.5rem;
-  font-weight: 700;
+.hero-photo-caption {
+  margin: 0.6rem 0 0;
+  font-size: 0.9rem;
+  line-height: 1.4;
+  text-align: center;
+  color: var(--text-muted);
+  white-space: nowrap;
 }
 
 .eyebrow {
@@ -197,6 +200,34 @@ a:hover {
 
 .bio {
   max-width: 60ch;
+}
+
+.interests {
+  margin: 1rem 0 0;
+}
+
+.interests-label {
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  margin: 0 0 0.5rem;
+}
+
+.interests-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.interest-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 0.4rem 0.85rem;
+  font-size: 0.85rem;
+  color: var(--text);
 }
 
 .bio-meta {
@@ -313,6 +344,15 @@ a:hover {
 .timeline-content > p {
   margin: 0;
   color: var(--text-muted);
+}
+
+.timeline-courses {
+  margin-top: 0.3rem !important;
+  font-size: 0.85rem;
+}
+
+.timeline-courses strong {
+  color: var(--text);
 }
 
 /* Skills */
@@ -452,6 +492,15 @@ a:hover {
   text-decoration: none;
 }
 
+.btn-icon-pending {
+  color: var(--text-muted);
+  border-color: var(--border);
+  border-style: dashed;
+  opacity: 0.55;
+  pointer-events: none;
+  cursor: default;
+}
+
 /* Publications */
 .pub-list {
   list-style: none;
@@ -488,6 +537,65 @@ a:hover {
   border: 1px solid var(--accent);
   border-radius: 999px;
   padding: 0.1rem 0.5rem;
+}
+
+/* Activities */
+.collapsible summary.section-title {
+  cursor: pointer;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.collapsible summary.section-title::-webkit-details-marker {
+  display: none;
+}
+
+.collapsible summary.section-title::before {
+  content: "+";
+  color: var(--accent);
+  font-size: 1.2rem;
+  line-height: 1;
+  width: 1rem;
+}
+
+.collapsible[open] summary.section-title::before {
+  content: "\2212";
+}
+
+.collapsible-body {
+  padding-top: 0.5rem;
+}
+
+.collapsible-body h3 {
+  font-size: 1rem;
+  margin: 1.25rem 0 0.6rem;
+}
+
+.collapsible-body h3:first-child {
+  margin-top: 0;
+}
+
+.activity-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.activity-list li {
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--border);
+  font-size: 0.92rem;
+  color: var(--text-muted);
+}
+
+.activity-list li:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
 }
 
 /* Contact */
